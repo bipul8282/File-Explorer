@@ -1,4 +1,4 @@
-/* ===== Base Reset ===== */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,7 +12,7 @@ h2, h3 {
   color: #2c3e50;
 }
 
-/* ===== Layout ===== */
+
 .tree-pane {
   width: 30%;
   min-width: 250px;
@@ -32,7 +32,7 @@ h2, h3 {
   overflow-y: auto;
 }
 
-/* ===== Tree Node ===== */
+
 .tree-node {
   margin-left: 12px;
   padding: 6px 10px;
@@ -55,7 +55,7 @@ h2, h3 {
   text-overflow: ellipsis;
 }
 
-/* ===== Buttons ===== */
+
 button {
   padding: 6px 12px;
   margin-right: 8px;
@@ -85,7 +85,7 @@ button:hover {
   color: #dc2626;
 }
 
-/* ===== Input ===== */
+
 input[type="text"] {
   width: 100%;
   padding: 8px 10px;
@@ -102,7 +102,7 @@ input[type="text"]:focus {
   outline: none;
 }
 
-/* ===== Viewer ===== */
+
 .viewer-pane p {
   font-size: 16px;
   margin: 10px 0;
@@ -112,7 +112,7 @@ input[type="text"]:focus {
   margin-bottom: 16px;
 }
 
-/* ===== Scrollbar Customization ===== */
+
 .tree-pane::-webkit-scrollbar,
 .viewer-pane::-webkit-scrollbar {
   width: 8px;

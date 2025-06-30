@@ -1,0 +1,130 @@
+/* ===== Base Reset ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f5f9;
+  color: #333;
+}
+
+h2, h3 {
+  margin: 0 0 16px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* ===== Layout ===== */
+.tree-pane {
+  width: 30%;
+  min-width: 250px;
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  padding: 20px;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.03);
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.viewer-pane {
+  flex: 1;
+  padding: 32px;
+  background-color: #fdfdfd;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* ===== Tree Node ===== */
+.tree-node {
+  margin-left: 12px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.2s ease;
+}
+
+.tree-node:hover {
+  background-color: #eef3fa;
+}
+
+.tree-node span {
+  cursor: pointer;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ===== Buttons ===== */
+button {
+  padding: 6px 12px;
+  margin-right: 8px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: #555;
+  margin-left: 4px;
+}
+
+.icon-btn:hover {
+  color: #dc2626;
+}
+
+/* ===== Input ===== */
+input[type="text"] {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* ===== Viewer ===== */
+.viewer-pane p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.action-buttons {
+  margin-bottom: 16px;
+}
+
+/* ===== Scrollbar Customization ===== */
+.tree-pane::-webkit-scrollbar,
+.viewer-pane::-webkit-scrollbar {
+  width: 8px;
+}
+
+.tree-pane::-webkit-scrollbar-thumb,
+.viewer-pane::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.tree-pane::-webkit-scrollbar-thumb:hover,
+.viewer-pane::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "type": "folder",
+  "children": [
+    {
+      "name": "Documents",
+      "type": "folder",
+      "children": [
+        { "name": "Resume.pdf", "type": "file" },
+        { "name": "CoverLetter.docx", "type": "file" }
+      ]
+    },
+    {
+      "name": "Pictures",
+      "type": "folder",
+      "children": [
+        { "name": "Vacation.jpg", "type": "file" }
+      ]
+    }
+  ]
+}
